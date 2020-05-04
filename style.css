@@ -203,7 +203,7 @@
     }
     .hola{
         background-color: #2755E9;
-        height: 180px;
+        height: fit-content;
         color: white;
         text-align: center;
         padding-top: 50px;
@@ -213,6 +213,7 @@
     }
     .mine{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         font-size: 17px;
         line-height: 0.8;
